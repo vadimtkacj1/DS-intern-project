@@ -1,0 +1,13 @@
+SEED: 123
+image_size: 250
+LABELS:
+  - butterfly
+  - cat
+  - chicken
+  - cow
+  - dog
+  - elephant
+  - horse
+  - sheep
+  - spider
+  - squirrel

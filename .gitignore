@@ -1,0 +1,70 @@
+# Python-specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+*/venv/
+*/env/
+.venv/
+.env/
+
+# # Virtual environment
+# */venv/
+# */env/
+# */.venv/
+# */.env/
+
+
+# */results/
+# */logs/
+# */data/
+
+*/results/
+*/logs/
+*/data/
+*/models/
+
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE-specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Dependency directories
+node_modules/
+
+# Configuration files for tools
+.DS_Store
+*.tgz
+*.tar.gz
+*.zip
+
+# Data from external sources (such as Kaggle datasets)
+external_data/
+
+# Test coverage reports
+.coverage
+*.cover
+*.hypothesis/
+
+# Outputs of Jupyter Notebooks
+*.out
+*.err
+
+# Python distribution packages
+*.egg
+*.egg-info/
+dist/
+build/
