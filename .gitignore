@@ -27,8 +27,6 @@ __pycache__/
 */results/
 */logs/
 */data/
-*/models/
-
 
 # Logs and temporary files
 *.log
