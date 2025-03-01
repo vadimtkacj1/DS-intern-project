@@ -23,3 +23,10 @@ def translate_dir_names(data_path, translate):
             current_dir = os.path.join(data_path, image_class)
             new_dir = os.path.join(data_path, translate[image_class])
             os.rename(current_dir, new_dir)
+
+def normalize_data(train_data, validation_data):
+    # Normalize the images
+    train_data = train_data.map(lambda x, y: (x / 255.0, y))
+    validation_data = validation_data.map(lambda x, y: (x / 255.0, y))
+
+    return train_data, validation_data
