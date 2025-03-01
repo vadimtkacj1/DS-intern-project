@@ -28,6 +28,8 @@ __pycache__/
 */logs/
 */data/raw/
 
+*/src/scripts/outputs/
+
 # Logs and temporary files
 *.log
 *.tmp
