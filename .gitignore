@@ -29,6 +29,9 @@ __pycache__/
 */data/raw/
 
 */src/scripts/outputs/
+*/src/ner_animals_model/
+
+*.h5
 
 # Logs and temporary files
 *.log
@@ -58,6 +61,7 @@ external_data/
 .coverage
 *.cover
 *.hypothesis/
+
 
 # Outputs of Jupyter Notebooks
 *.out

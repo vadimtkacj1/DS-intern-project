@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-def filter_images(data_path, image_exts = ['jpeg', 'jpg', 'png']):
+def filter_images(data_path, image_exts):
     for image_class in os.listdir(data_path): 
         for image in os.listdir(os.path.join(data_path, image_class)):
             image_path = os.path.join(data_path, image_class, image)
