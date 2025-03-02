@@ -29,7 +29,7 @@ __pycache__/
 */data/raw/
 
 */src/scripts/outputs/
-*/src/ner_animals_model/
+*/models/ner_animals_model/
 
 *.h5
 
